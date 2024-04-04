@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="plugins/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog de Noticias</title>
+</head>
+
+<body>
+
+    <div class="contenido-header">
+
+        <header>
+
+            <div class="logo">
+
+                <a class="titulo" href="#">Blog Noticias</a>
+
+            </div>
+
+        </header>
+
+        <nav>
+
+            <ul class="lista">
+
+                <li class="button-agregar">Agregar Noticia</li>
+
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+    <div class="main-container" id="container-noticias">
+
+        <!-- <div class="cards" id="noticia1"> 
+        <div class="contenido-principal">
+        <h4></h4>
+            <p></p>
+        </div>
+    </div>
+
+
+    <div class="noticias-secundarias">
+
+    <div class="cards-1">
+
+         <img class="noticia-1" src="" alt=""> 
+
+        <div class="contenido">
+        <h4 id="lista"></h4>
+        <p></p>
+    </div>
+        </div>
+    -->
+        <div class="cards-1" id="noticiasLeer">
+
+            <!-- <div class="contenido-2"> 
+                <h4></h4>
+                <p>
+                </p>
+                <button class="btn-descargar"></button>
+            </div>-->
+
+        </div>
+
+       <!-- <div class="cards-1">
+
+             <div class="contenido-3"> 
+                <h4></h4>
+                <p>
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+-->
+
+    </div>
+
+
+    <section class="modal" id="modalForm">
+
+
+        <form class="modal__container" id="formNoticias" name="noticiasForm">
+
+            <h2 class="modal__title">Noticias</h2>
+
+            <label class="lbl-nombre" for="titulo">
+                <span class="text-nomb">Titulo</span>
+            </label>
+            <input type="text" name="titulo" id="titulo" >
+
+
+            <label class="lbl-nombre" for="contenido">
+                <span class="text-nomb">Contenido</span>
+            </label>
+            <textarea name="" cols="50" rows="10" id="contenido" name="contenido"  ></textarea>
+
+            <input type="file" id="archivo" accept="image/*" name="imagenes"> 
+            <input type="file" id="audio" accept="audio/*" name="audios"> 
+
+
+            </div>
+
+
+            <button type="submit" class="registrar-noticia">Agregar Noticia</button>
+            <input type="reset" class="registrar-noticia" id="crear" value="Resetear">
+            <button type="submit" class="editar-noticia" style="display: none;">Actualizar</button>
+
+
+            <a href="#" class="modal__close"><i class='bx bxs-x-circle' style='color:#ff0202'></i></a>
+
+        </form>
+
+
+    </section>
+
+
+    <!-- <section class="modal-actualizar" id="modalForm-actualizar"> 
+
+
+        <form class="modal__container" id="formNoticias" name="noticiasForm">
+
+            <h2 class="modal__title">Noticias</h2>
+
+            <label class="lbl-nombre" for="titulo">
+                <span class="text-nomb">Titulo</span>
+            </label>
+            <input type="text" name="titulo" id="titulo" >
+
+
+            <label class="lbl-nombre" for="contenido">
+                <span class="text-nomb">Contenido</span>
+            </label>
+            <textarea name="" cols="50" rows="10" id="contenido" name="contenido" ></textarea>
+
+            <input type="file" id="archivo" accept="image/*" name="imagenes"> 
+
+            </div>
+
+
+            <button type="submit" class="registrar-noticia">Actualizar</button>
+        
+            <button type="submit" class="editar-noticia" style="display: none;">Actualizar</button>
+
+
+            <a href="#" class="modal__close__actualizar"><i class='bx bxs-x-circle' style='color:#ff0202'></i></a>
+
+        </form>
+
+
+    </section>
+
+-->
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+
+</body>
+
+</html>
